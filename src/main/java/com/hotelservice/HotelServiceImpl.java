@@ -15,7 +15,7 @@ public class HotelServiceImpl implements HotelService {
 
 	}
 
-	public HotelBean display(String bookingId) throws Exception { 
+	public HotelBean display(String bookingId) throws Exception {
 		HotelBean hotelbean = null;
 		try {
 			HotelDao hoteldao = new HotelDaoImp();

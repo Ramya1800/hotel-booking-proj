@@ -1,11 +1,13 @@
-                             *Steps to set up a project*
-                             
-1.Launch Eclipse IDE then Go to File > Import > Existing Maven Project > Select Maven Project from the Root Directory OR if your checking out code through Eclipse provided git option then we just have to convert the project to maven project using option(right click on the project and select the option Configure ->Convert To Maven Project).
+                       *Steps to set up a project*
+ 
+ 1A)JAVA Project with build tool Maven  
+                           
+1.Launch Eclipse IDE then Go to File > Import > Existing Maven Project > Select Maven Project from the Root Directory OR if you'r checking out code through Eclipse provided git option then we just have to convert the project to maven project using option(right click on the project and select the option Configure ->Convert To Maven Project).
 2.To run the application right click on the project and choose Run As > Java Application
-      
-NOTE: To Run the above application we need Eclipse IDE as Prerequsite.                
+  
+NOTE: As a Prerequsite, To Run the above application we need Eclipse IDE and MYSQL Database in your system and Schema Name should be "hotel_management_system" and configure UserName and Password as "root" and "abcd" respectively .                
                              
-1A)Please follow the below steps for Downloading & Installing Eclipse IDE:
+1B)Please follow the below steps for Downloading & Installing Eclipse IDE:
 
 i)In the first step, Open your browser and navigate to this URL(https://www.eclipse.org/downloads/). 
 ii)Then, click on the “Download”(right side top) button to download Eclipse IDE.
@@ -15,7 +17,7 @@ v) Now go to File Explorer and click on “Downloads” after that click on the “ecl
 vi)Then, click on “Eclipse IDE for Java Developers”.
 vii)Then, click on the “Install” button.
  
-1B)IF YOU'RE NOT AWARE ABOUT HOW TO CREATE AN MAVEN PROJECT THEN FOLLOW THE BELOW STEPS:
+1C)IF YOU'RE NOT AWARE ABOUT HOW TO CREATE AN MAVEN PROJECT THEN FOLLOW THE BELOW STEPS:
 
 i)First we will open our Eclipse IDE then Go to File > New > Maven Project. 
 ii)Once we click on Maven Project we will get a prompt for setting up our Workspace location.

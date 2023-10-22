@@ -2,7 +2,7 @@ package com.hotelDao;
 
 import java.sql.Connection;
 
-import java.sql.DriverManager; 
+import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
@@ -95,10 +95,9 @@ public class HotelDaoImp implements HotelDao {
 			if (updatedRowsCount == 0) {
 				System.out.println("Booking Details not available for the boooking id: " + bookingId);
 			} else {
-				System.out.println("Booking details successfully updated for no of rows: " + updatedRowsCount);
+				System.out.println("Booking details successfully updated ");
 			}
 
-			// sc.close();
 		}
 
 		catch (Exception exception) {
@@ -125,7 +124,7 @@ public class HotelDaoImp implements HotelDao {
 			if (updatedRowsCount == 0) {
 				System.out.println("Booking Details not available for the boooking id: " + bookingId);
 			} else {
-				System.out.println("Booking details successfully cancelled for no of rows: " + updatedRowsCount);
+				System.out.println("Your Booking details hs been successfully cancelled  ");
 			}
 
 		} catch (Exception exception) {

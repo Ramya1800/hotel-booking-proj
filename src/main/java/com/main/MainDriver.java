@@ -2,11 +2,11 @@ package com.main;
 
 import java.util.Scanner;
 
-public class MainDriver { 
+public class MainDriver {
 
 	// MainDriver->Operations->HotelServiceImpl->HotelDaoImp
 	public static void main(String[] args) {
-		System.out.println("------------Welcome to ramya Hotel--------------");
+		System.out.println("------------Welcome to Taj Hotel--------------");
 		boolean flag = true;
 		Scanner sc = new Scanner(System.in);
 		HotelOperations hotelOperations = new HotelOperations();
@@ -49,7 +49,7 @@ public class MainDriver {
 
 				break;
 			case 5:
-				System.out.println("Thank you");
+				System.out.println("Thank you and visit again");
 				flag = false;
 				break;
 			default:

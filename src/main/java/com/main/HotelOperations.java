@@ -12,7 +12,7 @@ import com.hotelservice.HotelServiceImpl;
 
 public class HotelOperations {
 	Scanner sc = new Scanner(System.in);
- 
+
 	public void addBookingDetails() {
 		try {
 			System.out.println("Enter the booking id");
@@ -73,7 +73,7 @@ public class HotelOperations {
 			HotelService hotelService = new HotelServiceImpl();
 			System.out.println("Enter the bookingId");
 			String bookingId = sc.next();
-			System.out.println("mention the room type that you want to change");
+			System.out.println("Mention the room type that you want to change");
 			String roomType = sc.next();
 			hotelService.edit(bookingId, roomType);
 
