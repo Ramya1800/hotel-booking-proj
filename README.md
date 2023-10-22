@@ -1,6 +1,6 @@
                              *Steps to set up a project*
                              
-1.Launch Eclipse IDE then Go to File > Import > Existing Maven Project > Select Maven Project from the Root Directory .
+1.Launch Eclipse IDE then Go to File > Import > Existing Maven Project > Select Maven Project from the Root Directory OR if your checking out code through Eclipse provided git option then we just have to convert the project to maven project using option(right click on the project and select the option Configure ->Convert To Maven Project).
 2.To run the application right click on the project and choose Run As > Java Application
       
 NOTE: To Run the above application we need Eclipse IDE as Prerequsite.                
